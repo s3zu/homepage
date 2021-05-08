@@ -1,0 +1,12 @@
+.flex {
+    
+    width: 500px;
+    display: flex;
+}
+
+.flex__item {
+    width: 300px;
+    background: #d7d7db;
+    margin: 5px auto;
+   
+}

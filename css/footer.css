@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.footer {
+    font-family: "lato", sans-serif;
+    text-align: center;
+    background-color: #000000;
+    color: blanchedalmond;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.mailTo {
+    display: block;
+    color: #ffebcd;
+    text-align: center;
+}

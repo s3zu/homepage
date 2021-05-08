@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.button {
+    float: right;
+    max-width: 100px;
+    background-color: #222222;
+    color: #ee0d0d;
+}
+
+.button:hover {
+    color: darkorange;
+    padding: 10px;
+}

@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.section {
+    line-height: 20px;
+    font-family: "Lato", sans-serif;
+    max-width: 1000px;
+    min-height: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 2px 2px 8px #ccc;
+}
+
+.section--dark {
+    margin: 20px auto;
+    padding: 20px 30px;
+    max-width: 1000px;
+    min-height: 200px;
+    background-color: #888888;
+}
+
+.section__header {
+    font-size: 18px;
+    max-width: 150px;
+    padding: 1px;
+    background-color: #FFFFFF;
+    position: relative;
+    box-shadow: 2px -2px 1px 0px #D1CCB5, 2px -2px 2px 0px #EDEDED;
+}
+
+.section__paragraph {
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+    color: #222
+}

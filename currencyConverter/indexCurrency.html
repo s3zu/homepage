@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kantor Małego Misia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link href="css/BEM/style.css" rel="stylesheet">
+    <link href="css/BEM/form.css" rel="styleskeet">
+    <link href="css/BEM/flex.css" rel="stylesheet">
+    <script defer src="jsCurrency/script.js">
+    </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <main>
+        <section class="section">
+            <h1 class="header">Przelicznik Walut</h1>
+            <nav class="navigation">
+                <ul class="list">
+                    <li><a class="link" href="/index.html">Strona główna</a></li>
+                </ul>
+            </nav>
+
+            <form class="js-form">
+
+                <legend>Kurs: z dnia 20.04.2021</legend>
+                <div class="flex">
+                    <div class="flex__item">
+                        <p class="section__paragraph">
+
+                            <label>PLN:
+                                <input class="js-amount" type="number" required min="1" step="any">
+                            </label>
+                        </p>
+                    </div>
+                    <div class="flex__item">
+                        <p class="section__paragraph">
+                            <label>Waluta
+                                <select name="currency" class="js-currency" type="text" required>
+                                    <option value="euro" class="js-euro">EURO</option>
+                                    <option value="gbp" class="js-gbp">GBP</option>
+                                    <option value="dollar" class="js-dollar">Dolar Amerykański</option>
+                                </select>
+                            </label>
+                        </p>
+                    </div>
+
+            </form>
+            </div>
+            <p class="section__paragraph section__paragraph--fontSize">Kwota:<strong class="js-result"></strong>
+            </p>
+
+        </section>
+
+
+    </main>
+
+
+</body>
+
+</html>

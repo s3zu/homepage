@@ -1,0 +1,18 @@
+.html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+.form__legend{
+    color: gold;
+    border: 1px solid gold
+
+}
+
+.section__form{
+    margin: left;
+    color: gold;
+    border: 1px solid gold;
+} 

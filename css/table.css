@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.tableContainer {
+    overflow-x: auto;
+}
+
+.table {
+    font-family: "lato", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableCell {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+.tableRow:nth-child(even) {
+    background: #ffffff;
+}
+
+.tableRow:hover {
+    background: #ddd;
+}
+
+.tableHeader {
+    font-family: "lato", sans-serif;
+    font-size: 24px;
+}

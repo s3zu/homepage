@@ -1,0 +1,18 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.list {
+    margin-top: 20px;
+    list-style-type: none;
+    line-height: 25px;
+}
+
+.projectList {
+    list-style-type: none;
+    text-align: left;
+}

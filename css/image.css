@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.image {
+    box-shadow: 3px 3px 5px #a0a0a0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    max-width: 30%;
+    filter: contrast(1.2) brightness(0.99) grayscale(1.2);
+}
